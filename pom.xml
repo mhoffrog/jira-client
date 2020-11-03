@@ -44,6 +44,18 @@
         <maven.toolchain.version>1.7.0_60</maven.toolchain.version>
     </properties>
 
+    <!-- RA distribution management -->
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://evdekarnex01s:8081/nexus/content/repositories/Rockwell/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://evdekarnex01s:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
 
         <dependency>
